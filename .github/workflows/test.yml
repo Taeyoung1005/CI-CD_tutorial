@@ -7,7 +7,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: variable test
+    name: test
     steps:
+      - name: run pwd
+        run: pwd
+
+      - name: run ls -al
+        run: ls -al
+
       - name: new variable test
         run: echo "${{vars.TEST}}"
