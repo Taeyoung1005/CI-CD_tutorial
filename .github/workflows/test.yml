@@ -9,4 +9,4 @@ jobs:
     name: variable test
     steps:
       - name: new variable test
-        run: echo "${{TEST}}"
+        run: echo "${{vars.TEST}}"
