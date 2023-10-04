@@ -10,4 +10,4 @@ jobs:
     name: test2
     steps:
       - name: print hello world
-        run: echo "${{ variables.test }}"
+        run: echo "${{ vars.test }}"
