@@ -1,0 +1,12 @@
+name: TEST
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    name: variable test
+    steps:
+      - name: new variable test
+      run: echo "${{TEST}}"
