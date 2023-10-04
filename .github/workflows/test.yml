@@ -15,5 +15,5 @@ jobs:
       - name: run ls -al
         run: ls -al
 
-      - name: using variable
+      - name: use variable
         run: echo "${{vars.TEST}}"
